@@ -41,7 +41,7 @@ function gulpRequireTextWrapper(prefixText) {
     contents = contents.replace(/'/g, "\\'");
 
     // wrap up as an amd module
-    contents = "define(function() { return { text: '" + contents + "' }; });";
+    contents = "var template = '" + contents + "'";
 
     // back to buffer
     contents = contents.toString('binary');
