@@ -6,11 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "micahblu",
-  "license": "BSD-2-Clause",
+  "author": "gnatok",
+  "license": "",
   "repository": {
     "type": "git",
-    "url": "git@github.com:micahblu/gulp-require-text-wrapper.git"
+    "url": "git@github.com:gnatok/gulp-require-text-wrapper.git"
   },
   "dependencies": {
     "through2": "~2.0.0",
